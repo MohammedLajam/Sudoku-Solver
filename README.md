@@ -13,12 +13,9 @@ The Target is to fill the empty cells with number between 1 to 9 and keeping the
   3. Each subgrid consists 9 cells, where all of them has a uniqie number between 1 to 9
 
 ## Implementation of Python code:
-Sudoku example: [[0, 0, 3, 0, 0, 0],
-                 [5, 6, 0, 3, 2, 0],
-                 [0, 5, 4, 2, 0, 0],
-                 [2, 0, 6, 0, 5, 0],
-                 [0, 1, 2, 0, 4, 0],   
-                 [0, 0, 0, 1, 0, 0]]
+Libraries: NumPy
+Sudoku example:
+![alt text](https://static.techspot.com/images2/downloads/topdownload/2019/09/2019-09-19-ts3_thumbs-15a.png)
 
 1. We first go for each 0 (empty cell), and check the rows, cloumns and a square (3*3).
 2. If the number fulfills the conditions of Sudoku, then we replace 0 with the number. if not, then we go for the next number.
