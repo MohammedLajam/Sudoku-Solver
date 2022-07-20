@@ -18,7 +18,7 @@ def solver(sudoku, solutions):
                     y = column // 3  # 0, 0, 0, 1, 1, 1 for every column iteration
                     if number not in sudoku[row, :] \
                         and number not in sudoku[:, column] \
-                            and number not in sudoku[x * 2:(x + 1) * 2, y * 3:(y + 1) * 3]:  # sudoku[0:2 , 0:3]
+                            and number not in sudoku[x * 2:(x + 1) * 2, y * 3:(y + 1) * 3]:
                         sudoku[row][column] = number
                         solver(sudoku, solutions)
                         sudoku[row][column] = 0
