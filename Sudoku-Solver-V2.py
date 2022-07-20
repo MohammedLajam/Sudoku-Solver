@@ -1,11 +1,12 @@
+# Code for solving Sudoku game (9*9 grid):
 import numpy as np
 
 
 def solver(sudoku, solutions):
     """
     The Conditions of Sudoku:
-    This task consists of solving a 6x6 sudoku grid using python. In this variation, each 2x3 block has to contain
-    uniquely the numbers from 1 to 6, in such a way that on every row and column there are no repeated numbers.
+    This task consists of solving a 9x9 sudoku grid using python. In this variation, each 3x3 block has to contain
+    uniquely the numbers from 1 to 9, in such a way that on every row and column there are no repeated numbers.
     """
     # checking if the cell is empty (searching for ZEROS):
     for row in range(0, 9):

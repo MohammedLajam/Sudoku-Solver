@@ -1,3 +1,4 @@
+# Code for solving Sudoku game (6*6 grid):
 import numpy as np
 
 
