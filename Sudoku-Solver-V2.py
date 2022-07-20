@@ -44,16 +44,3 @@ if __name__ == "__main__":
     solver(s, solutions_list)
     for solution in solutions_list:
         print(solution)
-
-'''
-    assert len(solutions_list) == 3, "Make sure there three are solutions to the problem"
-    one_solution = np.array(
-            [4, 2, 3, 5, 1, 6,
-             5, 6, 1, 3, 2, 4,
-             1, 5, 4, 2, 6, 3,
-             2, 3, 6, 4, 5, 1,
-             3, 1, 2, 6, 4, 5,
-             6, 4, 5, 1, 3, 2]
-        ).reshape([6, 6])
-    assert any(np.array_equal(sol, one_solution) for sol in solutions_list), "Make sure one of the solutions match"
-'''
