@@ -6,6 +6,8 @@ The second Python file consists of the code to solve a SUdoku game (9x9 grid)
 ## Introduction:
 it is a logic-based combinatorial number-placement puzzle. In classic Sudoku, the objective is to fill a 9 × 9 grid with digits so that each column, each row, and each of the nine 3 × 3 subgrids that compose the grid (also called "boxes", "blocks", or "regions") contain all of the digits from 1 to 9. The puzzle setter provides a partially completed grid, which for a well-posed puzzle has a single solution.
 
+![alt text](https://static.techspot.com/images2/downloads/topdownload/2019/09/2019-09-19-ts3_thumbs-15a.png)
+
 ## Roles of Sudoku Game:
 The Target is to fill the empty cells with number between 1 to 9 and keeping the roles of Sudoku into consideration:
   1. Each row consists of 9 cells, where all of them has a uniqie number between 1 to 9
@@ -14,8 +16,6 @@ The Target is to fill the empty cells with number between 1 to 9 and keeping the
 
 ## Implementation of Python code:
 Libraries: NumPy
-Sudoku example:
-![alt text](https://static.techspot.com/images2/downloads/topdownload/2019/09/2019-09-19-ts3_thumbs-15a.png)
 
 1. We first go for each 0 (empty cell), and check the rows, cloumns and a square (3*3).
 2. If the number fulfills the conditions of Sudoku, then we replace 0 with the number. if not, then we go for the next number.
